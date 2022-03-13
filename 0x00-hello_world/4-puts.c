@@ -1,6 +1,6 @@
 #include <stdio.h>
-/* Print the text
- *
+/* Print the text/*
+ *jklm/*
  */
 
 int main(void)
