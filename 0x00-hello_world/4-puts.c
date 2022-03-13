@@ -1,5 +1,8 @@
 #include <stdio.h>
-//Print the text
+/*
+ *Print the text
+ * main function
+ */
 
 int main(void)
 {
