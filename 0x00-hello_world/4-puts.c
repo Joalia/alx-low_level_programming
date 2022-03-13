@@ -1,7 +1,5 @@
 #include <stdio.h>
-/* Print the text/*
- *jklm/*
- */
+/* Print the text */
 
 int main(void)
 {
