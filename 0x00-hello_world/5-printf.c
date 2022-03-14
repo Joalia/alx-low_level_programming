@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* Use printf function */
+/**
+*main Entry point
+*Return: 0
+**/
 int main(void)
 {
 /* Use printf function */
