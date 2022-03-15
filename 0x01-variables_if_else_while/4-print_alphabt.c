@@ -7,9 +7,7 @@
 int main(void)
 {
         char a = 'a';
-        char aa = 'A';
         int n = 0;
-        int nn = 0;
 
         while (n < 26)
         {
