@@ -15,10 +15,9 @@ int main(void)
 			putchar(n + '0');
 		if (n >= 10)
 		{
-			putchar(ch + 1);
+			putchar(ch);
 			ch++;
 		}
-		n++;
 	}
 	putchar('\n');
 	return (0);
