@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- *main
+ *main -Entry point
  *
  *Return: Always 0 (Success)
  */
@@ -23,6 +23,6 @@ int main(void)
 	else if (lastDigit == 0)
 		printf("%d and is 0", lastDigit);
 	else
-		printf("%d and is less than 6 and not 0\n", lastDigit);
+		printf("%d and is less than 6 and not 0 \n", lastDigit);
 	return (0);
 }
