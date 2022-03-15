@@ -9,7 +9,7 @@ int main(void)
 	int n;
 	char z = 'z';
 
-	for (n = 26;n > 0; n--)
+	for (n = 26; n > 0; n--)
 	{
 		putchar(z);
 		z--;
