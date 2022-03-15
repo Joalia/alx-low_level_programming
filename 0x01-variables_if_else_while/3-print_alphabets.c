@@ -13,10 +13,10 @@ int main(void)
 
 	while (n < 26)
         {
-                putchar(a);
-                a++;
-                n++;
-        }
+		putchar(a);
+		a++;
+		n++;
+	}
 	while (nn < 26)
 	{
 		putchar(a);
