@@ -14,7 +14,10 @@ int main(void)
 		if (n < 10)
 			putchar(n + '0');
 		if (n >= 10)
+		{
 			putchar(ch + 1);
+			ch++;
+		}
 		n++;
 	}
 	putchar('\n');
