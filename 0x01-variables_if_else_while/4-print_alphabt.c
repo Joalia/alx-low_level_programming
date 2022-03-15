@@ -11,7 +11,7 @@ int main(void)
 
         while (n < 26)
         {
-		if (a == 'q') || (a == 'e')
+		if (a == 'q' || a == 'e')
 			a++;
                 putchar(a);
                 a++;
