@@ -19,7 +19,7 @@ int main(void)
 	}
 	while (nn < 26)
 	{
-		putchar(a);
+		putchar(aa);
 		aa++;
 		nn++;
 	}
