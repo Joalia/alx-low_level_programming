@@ -11,11 +11,11 @@ int main(void)
 	int t; /* t for the thirst digit*/
 
 	while (f < 10)
-        {
-                for (s = f; s < 10; s++)
-                {
-                        if (s != f)
-                        {
+	{
+		for (s = f; s < 10; s++)
+		{
+			if (s != f)
+			{
 				for (t = s; t < 10 ; t++)
 				{
 					if (t != s)
@@ -23,11 +23,11 @@ int main(void)
 						putchar(48 + f);
 						putchar(48 + s);
 						putchar(48 + t);
-					}
-					if (f != 7)
-					{
-						putchar(',');
-						putchar(' ');
+						if (f != 7)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
