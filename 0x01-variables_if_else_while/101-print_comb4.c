@@ -16,11 +16,14 @@ int main(void)
                 {
                         if (s != f)
                         {
-				if (t != s)
+				for (t = s; t < 10 ; t++)
 				{
-					putchar(48 + f);
-					putchar(48 + s);
-					putchar(48 + t);
+					if (t != s)
+					{
+						putchar(48 + f);
+						putchar(48 + s);
+						putchar(48 + t);
+					}
 					if (f != 7)
 					{
 						putchar(',');
