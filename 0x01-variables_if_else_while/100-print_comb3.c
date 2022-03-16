@@ -13,7 +13,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		for (n = 0; n < 10; n++)
+		for (n = c; n < 10; n++)
 		{
 			if (n != c)
 			{
