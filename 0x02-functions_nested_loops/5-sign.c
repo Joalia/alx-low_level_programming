@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _islower - cchecks if is lowercase
  * @n: The number to be checked
