@@ -1,29 +1,22 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * main -Entry point
- * Using function's header
- * Return: Always 0 (Success)
+ * print_alphabet - prints the alphabet un lowercase, followed by a new line
  */
+
 void print_alphabet(void)
 {
 	int c = 0;
 
 	while (c < 10)
 	{
-		putchar(48 + c);
+		_putchar(48 + c);
 		if (c != 9)
 		{
-			putchar(',');
-			putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 		c++;
 	}
 	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
