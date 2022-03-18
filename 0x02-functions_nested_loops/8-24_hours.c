@@ -4,7 +4,6 @@
 /**
  * jack_bauer - prints every mintute of the day
  *
- * Return: Always 0
  */
 void jack_bauer(void)
 {
@@ -23,5 +22,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-	return (0);
 }
