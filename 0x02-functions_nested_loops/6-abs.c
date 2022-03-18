@@ -8,8 +8,8 @@
 int _abs(int n)
 {
 	if (n > 0)
-		printf("%d", n);
+		printf(n);
 	else
-		printf("%d", -n);
+		printf(-n);
 	return (0);
 }
