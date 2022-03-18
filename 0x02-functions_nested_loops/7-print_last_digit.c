@@ -11,7 +11,11 @@ int print_last_digit(int n)
 {
 	int last;
 
-	last = _abs(n) % 10;
+	if (n >= 0)
+		n = n;
+	if (n < 0)
+		n = -n;
+	last = n % 10;
 	printf("%d", last);
 	return (last);
 }
