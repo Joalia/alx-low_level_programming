@@ -17,9 +17,9 @@ void times_table(void)
 			if ((b > 0) && (times / 10 == 0))
 				_putchar(' ');
 			_putchar(' ');
-			_putchar(times + '0');
+			printf("%d", times;
 			if (b < 9)
-				printf(",");
+				_putchar(',');
 		}
 		printf("\n");
 	}
