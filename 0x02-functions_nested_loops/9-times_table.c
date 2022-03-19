@@ -24,7 +24,7 @@ void times_table(void)
 			}
 			else
 			{
-				printf("%d", a * b)
+				printf("%d", a * b);
 			}
 			if (b < 9)
 				_putchar(',');
