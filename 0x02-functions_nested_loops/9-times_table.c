@@ -14,10 +14,10 @@ void times_table(void)
 		for (b = 0; b < 10; b++)
 		{
 			times = n * b;
-			if ( (b > 0) && (times / 10 == 0))
-				printf("  %d", times);
-			else
-				printf(" %d", times);
+			if ((b > 0) && (times / 10 == 0))
+				_putchar(' ');
+			_putchar(' ');
+			_putchar(times + '0');
 			if (b < 9)
 				printf(",");
 		}
