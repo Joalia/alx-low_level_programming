@@ -18,4 +18,5 @@ int main(void)
 		pp = p;
 		p = act;
 	}
+	return (0);
 }
