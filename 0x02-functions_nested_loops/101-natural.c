@@ -9,9 +9,9 @@ int main(void)
 	int i, som;
 	for (i = 0; i < 1025; i++)
 	{
-		if ( i % 3 = 0)
+		if ( i % 3 == 0)
 			som = som + i;
-		else if ( i % 5)
+		else if ( i % 5 == 0)
 			som = som +i;
 	}
 	printf("%d\n", som);
