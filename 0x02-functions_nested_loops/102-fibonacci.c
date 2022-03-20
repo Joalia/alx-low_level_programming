@@ -22,6 +22,7 @@ int main(void)
 	}
 	for (i = 0; i < 8; i++)
 	{
+		printf("%d", p);
 		act = p + pp;
 		pp = p;
 		p = act;
