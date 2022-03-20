@@ -10,10 +10,10 @@ int main(void)
 	long long p = 2;
 	long long pp = 1;
 
-	printf("%ld, ", pp);
+	printf("%lld, ", pp);
 	for (i = 0; i < 49; i++)
 	{
-		printf("%ld", p);
+		printf("%lld", p);
 		if (i < 48)
 			printf(", ");
 		act = p + pp;
