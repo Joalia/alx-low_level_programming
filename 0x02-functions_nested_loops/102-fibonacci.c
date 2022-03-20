@@ -7,8 +7,8 @@
 int main(void)
 {
 	int i, act;
-	long p = 2;
-	long pp = 1;
+	long long p = 2;
+	long long pp = 1;
 
 	printf("%ld, ", pp);
 	for (i = 0; i < 49; i++)
