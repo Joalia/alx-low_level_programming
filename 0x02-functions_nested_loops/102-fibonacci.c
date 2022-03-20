@@ -7,13 +7,13 @@
 int main(void)
 {
 	int i, act;
-	long long p = 2;
-	long long pp = 1;
+	unsigned long p = 2;
+	unsigned long pp = 1;
 
-	printf("%lld, ", pp);
+	printf("%lu, ", pp);
 	for (i = 0; i < 49; i++)
 	{
-		printf("%lld", p);
+		printf("%lu", p);
 		if (i < 48)
 			printf(", ");
 		act = p + pp;
