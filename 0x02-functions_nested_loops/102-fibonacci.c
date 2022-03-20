@@ -7,13 +7,15 @@
 int main(void)
 {
 	int i, act;
-	int p = 2;
-	int pp = 1;
+	long p = 2;
+	long pp = 1;
 
-	printf("%d, ", pp);
-	for (i = 0; i < 50; i++)
+	printf("%ld, ", pp);
+	for (i = 0; i < 49; i++)
 	{
-		printf("%d, ", p);
+		printf("%ld", p);
+		if (i < 48)
+			printf(", ");
 		act = p + pp;
 		pp = p;
 		p = act;
