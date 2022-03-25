@@ -17,6 +17,6 @@ void print_square(int size)
 			j = j + 1;
 		}
 		_putchar('\n');
-		i = j + 1;
+		i = i + 1;
 	}
 }
