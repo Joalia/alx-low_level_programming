@@ -8,10 +8,10 @@ void print_square(int size)
 {
 	int i = 0, j;
 
-	while (i < n)
+	while (i < size)
 	{
 		j = 0;
-		while (j < n)
+		while (j < size)
 		{
 			_putchar('#');
 			j = j + 1;
