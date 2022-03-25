@@ -4,7 +4,7 @@
  * print_most_numbers - print all the digits from 0 to 9
  *
  */
-void print_most_umbers(void)
+void print_most_numbers(void)
 {
 	int num;
 
