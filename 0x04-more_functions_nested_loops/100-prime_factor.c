@@ -5,39 +5,26 @@
  *
  * Return: 0
  */
-int is_prime(int num)
-{
-	int i;
-
-	sqr_root = sqrt(num);
-	if (num == 1)
-	{
-		return (0);
-	}
-	for (i = 2; i <= sqr_root; i++)
-	{
-		if ( sqr_root % i == 0)
-			return (0);
-	}
-	return (1);
-}
-
-
 int main(void)
 {
-	int i, max = 2;
+	long prime = 612852475143, div;
 
-	mid = 612852475143 / 2;
-	for (i = 2; i <= mid; i++)
+	while (div < (prime / 2))
 	{
-		if (mid % i == 0)
+		if ((prime % 2) == 0)
 		{
-			if (is_prime(i))
-			{
-				if (max < i)
-					max = i;
-			}
+			prime /= 2;
+			continue;
+		}
+
+		for (div = 3; div < (prime / 2); div += 2)
+		{
+			if ((prime % div) == 0)
+				prime /= div;
 		}
 	}
-	printf("%d\n", max);
+
+	printf("%ld\n", prime);
+
+	return (0);
 }	
