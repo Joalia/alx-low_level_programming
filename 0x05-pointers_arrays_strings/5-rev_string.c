@@ -19,5 +19,4 @@ void rev_string(char *s)
 		*(s + i) = *(s + (i - 1));
 		*(s + (i - 1)) = tmp;
 	}
-	printf("\n");
 }
