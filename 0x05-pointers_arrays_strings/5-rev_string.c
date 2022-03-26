@@ -9,13 +9,15 @@
 void rev_string(char *s)
 {
 	int len, i, j;
-	char tmp[strlen(s)];
+	char tmp;
 
-	j = 0;
-	for (i = len - 1; i >= 0; i--)
+	len = strlen(s);
+
+	for (i = len - 1; i >= 1; i--)
 	{
-		*(tmp + j) = *(s + i);
-		j++;
+		tmp = *(s + i);
+		*(s + i) = *(s + (i - 1));
+		*(s + (i - 1)) = tmp;
 	}
 	printf("\n");
 }
