@@ -12,7 +12,7 @@ void puts2(char *str)
 	printf("%c", str[0]);
 	k = strlen(str);
 	i = 0;
-	while (i < k - 1)
+	while (i < k - 2)
 	{
 		printf("%c", str[i + 2]);
 		i = i + 2;
