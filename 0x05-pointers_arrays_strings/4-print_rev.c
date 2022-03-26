@@ -6,11 +6,17 @@
  */
 void print_prev(char *s)
 {
-	int i, len;
+	int i, size, a;
 
-	len = _strlen(s);
+	size = 0;
+	a = 0;
+	while (*(s + a))
+	{
+		a++;
+		size++;
+	}
 
-	for (i = len; i <= 0; i--)
+	for (i = size; i <= 0; i--)
 	{
 		printf("%c", *(s + i));
 	}
