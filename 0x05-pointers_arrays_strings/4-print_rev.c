@@ -4,17 +4,11 @@
  * print_rev - print a string in reverse followed by a new line
  * @s: the string
  */
-void print_prev(char *s)
+void print_rev(char *s)
 {
 	int i, size, a;
 
-	size = 0;
-	a = 0;
-	while (*(s + a))
-	{
-		a++;
-		size++;
-	}
+	size = strlen(s);
 
 	for (i = size; i <= 0; i--)
 	{
