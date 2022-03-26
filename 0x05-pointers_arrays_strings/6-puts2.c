@@ -11,9 +11,11 @@ void puts2(char *str)
 
 	printf("%c", str[0]);
 	k = strlen(str);
-	for (i = 0; i < k - 1; i + 2)
+	i = 0;
+	while (i < k - 1)
 	{
 		printf("%c", str[i + 2]);
+		i = i + 2;
 	}
 	printf("\n");
 }
