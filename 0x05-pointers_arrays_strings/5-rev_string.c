@@ -9,8 +9,9 @@
 void rev_string(char *s)
 {
 	int len, i, j;
+	char tmp[];
+
 	len = strlen(s);
-	char tmp[len];
 
 	j = 0;
 	for (i = len - 1; i >= 0; i--)
@@ -18,4 +19,5 @@ void rev_string(char *s)
 		*(tmp + j) = *(s + i);
 		j++;
 	}
+	printf("\n");
 }
