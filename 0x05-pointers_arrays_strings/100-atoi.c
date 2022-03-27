@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _atoi : covert string to int
+ * _atoi - covert string to int
  * @s: the string
- * Return : a int
+ * Return: a int
  */
 int _atoi(char *s)
 {
@@ -24,4 +24,4 @@ int _atoi(char *s)
 	} while (*s++);
 
 	return (num * sign);
-}	
+}
