@@ -6,7 +6,7 @@
  * @s: the string
  * Return : a int
  */
-char _atoi(char *s)
+int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
