@@ -8,7 +8,7 @@
  * @n: the bytes
  * Return: a string
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
 	int index1, index2 = 0, len1, len2;
 
