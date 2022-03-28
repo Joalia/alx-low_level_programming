@@ -25,6 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 	for (index1 = len1; index1 < limit; index1++)
 	{
 		dest[index1] = src[index2];
+		index2++;
 	}
 	return (dest);
 }
