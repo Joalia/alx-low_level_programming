@@ -8,7 +8,7 @@
  * @n: the bytes
  * Return: a string
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int index1, index2 = 0, len1, len2;
 
@@ -18,8 +18,8 @@ char *_strcat(char *dest, char *src, int n)
 	for (index1 = len1; index1 < len1 + n; index1++)
 	{
 		dest[index1] = src[index2];
-		/*if (!index2++)
-			break;*/
+		if (!index2++)
+			break;
 	}
 	return (dest);
 }
