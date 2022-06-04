@@ -23,6 +23,7 @@ int main(void)
 						putchar(48 + f);
 						putchar(48 + s);
 						putchar(48 + t);
+
 						if (f != 7)
 						{
 							putchar(',');
