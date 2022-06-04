@@ -7,7 +7,7 @@
 int main(void)
 {
 	int f = 0; /* f is the first digits*/
-	int s; /* s is the second digit */
+	int s; /* s is hj the second digit */
 	int t; /* t for the thirst digit*/
 
 	while (f < 10)
