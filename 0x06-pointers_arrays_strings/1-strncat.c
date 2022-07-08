@@ -5,16 +5,20 @@
  * *_strncat - concatenate 2 string
  * @dest: the first
  * @src: the second string
- * @n: a integer
+ * @n: an integer
  * Return: a string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *ptr = dest + strlen(destination);
-	while (*src != '\0' && n--)
-	{
-		*ptr++ = *src++;
-	}
-	*ptr = '\0";
+        int index1, index2 = 0, len1, len2;
+
+        len1 = strlen(dest);
+        len2 = strlen(src);
+
+        for (index1 = len1; index1 < len1 + n; index1++)
+        {
+                dest[index1] = src[index2];
+                index2++;
+        }
         return (dest);
 }
