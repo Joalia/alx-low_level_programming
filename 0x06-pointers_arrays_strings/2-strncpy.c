@@ -1,32 +1,24 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
-/* _strncpy: copy a string
- * @dest: the string to copy
- * @src: where w'll copy
- * @n: the index
+/**
+ * *_strncat - concatenate 2 string
+ * @dest: the first
+ * @src: the second string
+ * @n: the limit of the src strinc to be taken
  * Return: a string
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int len1, len2, index1, index2, limit;
+        int index1, index2 = 0, len1, len2;
 
-	len1 = strlen(src);
-	index2 = 0;
+        len1 = strlen(dest);
+        len2 = strlen(src);
 
-
-	if (n == 0)
-		return (dest);
-	if (n > len1)
-		limit = len1;
-	else
-		limit = n;
-	for (index1 = 0; inde1 <= limit; index1++)
-	{
-		dest[index2] = src[index1];
-		index2++;
-	}
-
-	return (dest);
+        for (index1 = len1; index1 < len1 + len2; index1++)
+        {
+                dest[index1] = src[index2];
+                index2++;
+        }
+        return (dest);
 }
