@@ -1,16 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 /**
- * *_strncat - concatenate 2 string
+ * *_strcat - concatenate 2 string
  * @dest: the first
  * @src: the second string
- * @n: the limit of the src strinc to be taken
  * Return: a string
  */
-
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
         int index1, index2 = 0, len1, len2;
 
