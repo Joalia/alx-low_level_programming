@@ -9,6 +9,7 @@
  * @n: the limit of the src strinc to be taken
  * Return: a string
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
         int index1, index2 = 0, len1, len2;
