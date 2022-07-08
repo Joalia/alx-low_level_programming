@@ -2,22 +2,19 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * *_strcat - concatenate 2 string
+ * *_strncat - concatenate 2 string
  * @dest: the first
  * @src: the second string
+ * @n: a integer
  * Return: a string
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-        int index1, index2 = 0, len1, len2;
-
-        len1 = strlen(dest);
-        len2 = strlen(src);
-
-        for (index1 = len1; index1 < len1 + len2; index1++)
-        {
-                dest[index1] = src[index2];
-                index2++;
-        }
+	char *ptr = dest + strlen(destination);
+	while (*src != '\0' && n--)
+	{
+		*ptr++ = *src++;
+	}
+	*ptr = '\0";
         return (dest);
 }
