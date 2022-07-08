@@ -9,7 +9,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int tail, i;
+	int tail;
 	tail = strlen(s1) - strlen(s2);
 
 	if (tail == 0)
