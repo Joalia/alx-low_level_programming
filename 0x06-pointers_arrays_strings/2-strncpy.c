@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncpy - concatenates n bytes from a string to another
@@ -21,8 +22,8 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-
-	dest[i] = '\0';
+	while (i <= strlen(dest))
+		dest[i] = '\0';
 
 	return (dest);
 }
